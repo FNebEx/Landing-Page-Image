@@ -1,0 +1,20 @@
+/* style the body and the html element */
+/* height: 100% also works */
+html, body{ height: 100vh; } 
+
+/* style the img element */
+img{ max-width: 100%; }
+
+/*
+so this works if you have a div element with the 
+id of "stage". this theorectically could work 
+with anyelement.
+ */
+
+ #stage{
+     /* Note: does not have to be a jpeg, but just an image file. */
+     /* x-center, y-center, do not have the image repeat at all */
+     background: url( path/to/image.jpg) center center no-repeat;
+     width: 100%;
+     height: 100%;
+ }
